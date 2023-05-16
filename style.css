@@ -90,11 +90,11 @@ header > p {
 	line-height: 50px;
 }
 .textgood {
-	color: green;
+	color: #67E47B;
 	text-transform: capitalize;
 }
 .textbad{
-	color: red;
+	color: #A71111;
 	text-transform: capitalize;
 }
 /*.test11,li{
