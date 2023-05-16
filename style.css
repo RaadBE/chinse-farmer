@@ -51,17 +51,17 @@ img {
 }
 .nighb{
 	border-left: 4px solid green;
-	display: inline-block;
+	display: inline;
 	/*margin: 0;*/
 }
 .thefr{
 	border-left: 4px solid blue;
-	display: inline-block;
+	display: inline;
 
 }
 .every{
 	border-left: 4px solid pink;
-	display: inline-block;
+	display: inline;
 /*	font-size: 160%*/
 }
 blockquote{
@@ -72,8 +72,9 @@ blockquote{
 }
 .contair {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	column-gap: 2px;
+	justify-content: space-around;
 }
 .pargh{
 	/*display: flex;*/
@@ -96,3 +97,99 @@ header > p {
 	color: red;
 	text-transform: capitalize;
 }
+/*.test11,li{
+	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCU24VRW4IZZWMYIOW6F756ZDDKXZQ");
+/*	height: 20px;
+	width: 20px;
+	/*display: block;*/
+	/*background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	margin: 0 auto;
+	width: 27%;*/
+/*}*/
+
+
+li:nth-of-type(1){
+	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCU24VRW4IZZWMYIOW6F756ZDDKXZQ");
+/*	height: 20px;
+	width: 20px;*/
+	/*display: block;*/
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	margin: 0 auto;
+	max-width: 25%;
+	min-width: 26%;
+}
+li:nth-of-type(2){
+	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/mal.png?token=GHSAT0AAAAAACCU24VRWP3ONREZWEUKO3MQZDDL2GQ");
+/*	height: 20px;
+	width: 20px;*/
+	/*display: block;*/
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	margin: 0 auto;
+	max-width: 25%;
+	min-width: 26%;
+
+
+}
+li:nth-of-type(3){
+	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCU24VR2Y3V33GOUHKKPBTQZDDL4KA");
+/*	height: 20px;
+	width: 20px;*/
+	/*display: block;*/
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	margin: 0 auto;
+	max-width: 23%;
+	min-width: 26%;
+
+
+
+}
+
+
+button {
+	font-size: 50px;
+	border-radius: 20px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+button .bli {
+font-size: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+ .contair {
+   flex-direction: column;
+   justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fleximg {
+
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pargh {
+
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+
+    max-width: 100%;
+  }
+}
+
