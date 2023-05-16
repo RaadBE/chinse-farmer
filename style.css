@@ -6,8 +6,8 @@ body {
 /*	height: auto;
 */	text-align: center;
 	font-family: sans-serif;
-	background-color: #A8BCCE;
-}
+/*	background-color: #A8BCCE;
+*/}
 ul {
 	text-align: center;
 	list-style-position: inside;
@@ -69,4 +69,30 @@ blockquote{
 	margin: 0;
 	font-size: 15px;
 	font-weight: bold;
+}
+.contair {
+	display: flex;
+	flex-direction: row-reverse;
+	column-gap: 2px;
+}
+.pargh{
+	/*display: flex;*/
+	flex-basis: 45%;
+}
+header > img {
+	flex-basis: 45%;
+}
+header > p {
+	background-color: #71889C;
+	border-radius: 5px;
+	padding: 2px;
+	line-height: 50px;
+}
+.textgood {
+	color: green;
+	text-transform: capitalize;
+}
+.textbad{
+	color: red;
+	text-transform: capitalize;
 }
