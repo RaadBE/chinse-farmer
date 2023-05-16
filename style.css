@@ -12,8 +12,9 @@ ul {
 	text-align: center;
 	list-style-position: inside;
 	list-style: none;
-	font-size: 1.4em;
+/*	font-size: 1.4em;*/
 	padding-bottom: 20px;
+	padding-left: 0px;
 }
 #spqu{
 	width: 50%;
@@ -45,9 +46,13 @@ img {
 		min-width: 30%;
 	padding: 20px 0 20px 0;
 }
-.quem {
+h1,h2{
+	font-family: 'Merriweather', serif;
 
+}
 
+p{
+	font-family: 'Merriweather', serif;
 }
 .nighb{
 	border-left: 4px solid #67E47B;
@@ -109,13 +114,84 @@ header > p {
 	width: 27%;*/
 /*}*/
 
+.test11{
+	/*display: flex;
+	border:2px solid blue;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	font-size: 30px;*/
+}
+.cont {
+	display: flex;
+	flex-direction: row;
+	border: 3px solid blue;
+	font-size: 28px;
+	height: 280px;
+	justify-content: space-between;
+}
+.seconed-list{
+	flex-basis: 44%;
+	flex-direction: column;
+	justify-content: space-around;
+	display: flex;
+}
+.test11 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	flex-basis: 44%;
+}
+h2{
+	font-size: 40px;
 
-li:nth-of-type(1){
+	padding: 40px 40px;
+}
+
+button {
+	font-size: 50px;
+	border-radius: 20px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+button .bli {
+/*font-size: 20px;*/
+}
+
+
+
+
+
+/*	text-align: left;
+*/}
+/*/*
+/*.list-item-one {
+	flex-basis: 22.5%;
+}
+
+.list-item-two {
+	flex-basis: 22.5%;
+}
+.list-item-three {
+	flex-basis: 22.5%;
+}
+.list-item-four{
+	flex-basis: 22.5%;
+}*/
+
+
+
+
+
+/*li:nth-of-type(1){
 	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCU24VRW4IZZWMYIOW6F756ZDDKXZQ");
 /*	height: 20px;
 	width: 20px;*/
 	/*display: block;*/
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;
 	background-position: right;
 	background-size: contain;
 	margin: 0 auto;
@@ -127,45 +203,31 @@ li:nth-of-type(2){
 /*	height: 20px;
 	width: 20px;*/
 	/*display: block;*/
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;
 	background-position: right;
 	background-size: contain;
 	margin: 0 auto;
 	max-width: 25%;
 	min-width: 26%;
+*/
 
-
-}
+}/*
 li:nth-of-type(3){
-	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCU24VR2Y3V33GOUHKKPBTQZDDL4KA");
+	background-image: url("https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCU24VR2Y3V33GOUHKKPBTQZDDL4KA");*/
 /*	height: 20px;
-	width: 20px;*/
+	width: 20px;
 	/*display: block;*/
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;
 	background-position: right;
 	background-size: contain;
 	margin: 0 auto;
 	max-width: 23%;
 	min-width: 26%;
+*/
+/*
+}*/
 
-
-
-}
-
-
-button {
-	font-size: 50px;
-	border-radius: 20px;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-}
-button .bli {
-font-size: 20px;
-}
-
-
-@media only screen and (max-width: 768px) {
+/*@/*media only screen and (max-width: 768px) {
  .contair {
    flex-direction: column;
    justify-content: center;
@@ -178,8 +240,8 @@ font-size: 20px;
     max-width: 100%;
   }
 }
-
-@media only screen and (max-width: 768px) {
+*/
+/*@media only screen and (max-width: 768px) {
   .pargh {
 
     line-height: 20px;
@@ -193,3 +255,13 @@ font-size: 20px;
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .test11 {
+
+    display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	font-size: 25px;
+  }
+}
+*/
