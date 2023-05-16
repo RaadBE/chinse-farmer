@@ -50,17 +50,17 @@ img {
 
 }
 .nighb{
-	border-left: 4px solid green;
+	border-left: 4px solid #67E47B;
 	display: inline;
 	/*margin: 0;*/
 }
 .thefr{
-	border-left: 4px solid blue;
+	border-left: 4px solid #456AAC;
 	display: inline;
 
 }
 .every{
-	border-left: 4px solid pink;
+	border-left: 4px solid #C196C1;
 	display: inline;
 /*	font-size: 160%*/
 }
